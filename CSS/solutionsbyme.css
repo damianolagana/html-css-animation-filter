@@ -42,3 +42,10 @@
     border-radius: 20%;
     transition: 2s;
 }
+
+.ex-9-img:hover{
+    filter: sepia(1) opacity(1);
+    border-radius: 20%;
+    transform: scale(1.5);
+    transition: 2s;
+}
