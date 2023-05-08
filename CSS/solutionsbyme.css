@@ -27,3 +27,18 @@
 .ex-5-square:active{
     transform: scale(1);
 }
+
+.ex-6-img:hover{
+    filter: grayscale(2);
+}
+
+.ex-7-img:hover{
+    transition: 2s;
+    filter: sepia(2) blur(2px);
+}
+
+.ex-8-img:hover{
+    filter: sepia(1) opacity(1);
+    border-radius: 20%;
+    transition: 2s;
+}
